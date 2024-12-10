@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width, intial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="google-adsense-account" content="ca-pub-4649018341887192">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4649018341887192"
+     crossorigin="anonymous"></script>
+     <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=67447715c433c60012502bc2&product=inline-share-buttons&source=platform" async="async"></script>
+  <script src="script.js" defer></script>
+  <link href="contact-page-css.css" rel="stylesheet">
+  <link href="index.html" rel="import"/>
+  <link href="connect.php" rel="import"/>
+  <link href="feedback-page.html" rel="import"/>
+  <link href="services-page.html" rel="import"/>
+  <link href="About-page.html" rel="import"/>
+  <link href="http://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+  <title>MaryAllen</title>
+</head>
+
+<body>
+
+  
+  <div class="top-Nav-Bar">
+    <div class="homeNavBarForAllPages">
+      <a href="https://s3.us-east-2.amazonaws.com/maryallen.org/index.html" style="width:20%"><button style="width:100%">Home</button></a>
+      <a href="https://s3.us-east-2.amazonaws.com/maryallen.org/About-page.html" style="width:20%"><button style="width:100%">About</button></a>
+      <a href="https://s3.us-east-2.amazonaws.com/maryallen.org/services-page.html" style="width:20%"><button style="width:100%">Services</button></a>
+      <a href="https://s3.us-east-2.amazonaws.com/maryallen.org/contact-page.html" style="width:20%"><button style="width:100%">Contact</button></a>
+      <a href="https://s3.us-east-2.amazonaws.com/maryallen.org/feedback-page.html" style="width:20%"><button style="width:100%">Review</button></a>
+    </div>  
+    
+    <div class="logo">
+      <img src="5983244961445795939.jpg" alt="">
+    </div>
+    <div class="title12">
+      <h3>Life Transitions</h3>
+    </div>
+  
+    </div>
+
+
+<!--<div class="homeNavBarForAllPages">
+  <a href="./index.html" style="width:20%"><button style="width:100%">Home</button></a>
+  <a href="./About-page.html" style="width:20%"><button style="width:100%">About</button></a>
+  <a href="./services-page.html" style="width:20%"><button style="width:100%">Services</button></a>
+  <a href="./contact-page.html" style="width:20%"><button style="width:100%">Contact</button></a>
+  <a href="./feedback-page.html" style="width:20%"><button style="width:100%">Review</button></a>
+</div>-->
+
+
+    <div id="contact">
+      <div class="headerForHeader">
+      <h1>Contact</h1>
+      <p>Please fill out this form and we will get back to as soon as we can!</p>
+      </div>
+      <div class="container1">
+          
+        </div>
+
+        
+        <div class="container">
+          <div class="iframeContactSection"><iframe src="https://prettyform.addxt.com/a/form/vf/1FAIpQLSeVs2d987vGqXwSNhzge40uEWDfkV4XxYA7DHBjNRSzw4h2PQ" width="1080" height="1240" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          </div>
+      </div>
+    </div>
+        
+          <!--<div class="column">
+            <form name=form onsubmit="emailSend(); reset(); return false;">
+                <h3>Contact</h3>
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="fname" placeholder="First name" required>
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lname" placeholder="Last name" required>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Email" required>
+              <label for="telno">Phone Number</label>
+              <input type="telno" id="phone" name="phone" placeholder="111-111-1111" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"  required>
+              <label for="subject">Message</label>
+              
+              <textarea type="subject" id="subject" name="subject" placeholder="Write something" style="height:120px" style="width:100px" required></textarea>
+              <button type="submit" value="submit">Submit</button></form>
+          </div>
+        </div>
+      </div>
+      <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script> 
+    function emailSend() {
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "hopemja@gmail.com",
+            Password : "F680565097552E9B7FB235EAC247843116FB",
+            To : 'hopemja@gmail.com',
+            From : "maryallenwebsite@gmail.com",
+            Subject : "This is the subject",
+            Body : "And this is the body"
+        }).then(
+          message => alert(message)
+        );
+    }
+    </script>
+    <script>
+    function emailSend(){ 
+        var firstname = document.getElementById('fname').value;
+        var lastname = document.getElementById('lname').value;
+        var emailID = document.getElementById('email').value;
+        var phoneNo = document.getElementById('phone').value;
+        var subjectMessage = document.getElementById('subject').value;
+
+        var messageBody = "Firstname: " + firstname +
+        "<br/> Lastname: " + lastname +
+        "<br/> Email: " + emailID +
+        "<br/> Phone Number: " + phoneNo +
+        "<br/> Message: " + subjectMessage; 
+    
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                SecureToken : "f882d1ad-ee05-4e40-9d3a-1a02256d6e27",
+                Username : "tannerwale@gmail.com",
+                Password : "D3AB4D353E3CB4588181FEEDD0CE6C488C63",
+                To : 'tannerwale@gmail.com',
+                From : "tannerwale@gmail.com",
+                Subject : "maryallen.org",
+                Body : messageBody
+            }).then(
+              message => {
+              if(message =="OK") {
+                swal("Good job!", "You clicked the button!", "success");
+              }
+              else{
+                swal("Error!", "You clicked the button!", "Error");
+              }
+            }
+    )};
+        </script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"> import swal from 'sweetalert';</script>
+        <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
+-->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4649018341887192"
+     crossorigin="anonymous"></script>
+<!-- across bottom of page before footer -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4649018341887192"
+     data-ad-slot="1269422088"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+<!-- Footer -->
+<footer>
+  <div class="footerContainer">
+    <!-- ShareThis BEGIN --><div class="sharethis-inline-share-buttons"></div><!-- ShareThis END -->
+
+  </div>
+    <div class="footerNav">
+        <ul>
+            <li><a href="https://s3.us-east-2.amazonaws.com/maryallen.org/index.html">Home</a></li>
+          <li><a href="https://s3.us-east-2.amazonaws.com/maryallen.org/About-page.html">About</a></li>
+          <li><a href="https://s3.us-east-2.amazonaws.com/maryallen.org/services-page.html">Services</a></li>
+          <li><a href="https://s3.us-east-2.amazonaws.com/maryallen.org/contact-page.html">Contact</a></li>
+          <li><a href="https://s3.us-east-2.amazonaws.com/maryallen.org/feedback-page.html">Review</a></li>
+        </ul>
+  </div>  
+  <div class="footerBottom">
+    <p>Copyright $copy;2024; Designed by <span class="designer">Tanner Wale</span></p>
+  
+  </div>
+  </div>
+ </footer>
+
+</div>
+
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+  </html>

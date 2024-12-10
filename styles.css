@@ -1,0 +1,893 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+ /* sets height for screen so that when scrolling it changes color effectivley  
+  background-image: url("pexels-deepu-b-iyer-40465.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;*/
+  width: 100%;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+
+  /*background-color: rgba(85, 62, 62, 0.5);*/
+}
+
+.homeText h1{
+  margin-top: 80px;
+  padding: 10px;
+  color: #f1f1f1;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+  font-weight: 600;
+  background-color: rgb(0, 0, 0, 0.8);
+  width: 100%;
+}
+
+/* start home page css */
+
+.top-Nav-Bar{
+  display: inline-flex;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+  background-color: rgb(35, 35, 35);
+  z-index: 9999;
+}
+
+.homeNavBarForAllPages{
+  display: inline-flex;
+  color: lightgrey;
+  width: 40%;
+  position: fixed;
+  float: right;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.logo{
+  left: 0;
+  height: 26px;
+}
+
+.logo img{
+  height: 80px;
+  width: 100px;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  margin-left: 20px;
+}
+
+.title12{
+ justify-content: center;
+ margin: auto;
+  top: 0;
+  float: right;
+  overflow: hidden;
+
+}
+
+.title12 h3{
+ font-size: 40px;
+ font-weight: 400;
+ z-index: 9999;
+ top: 0;
+ color: white;
+}
+
+.homeNavBarForAllPages a{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-decoration: none;
+  background-color: #f1f1f1;
+}
+.homeNavBarForAllPages button{
+  padding: 26px 16px;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: rgb(35, 35, 35);
+  color: white;
+  font-size: 18px;
+  border-width: 0;
+  margin: 0;
+}
+.homeNavBarForAllPages button:hover{
+  background-color: #000000;
+}
+.homeNavBarForAllPages button::after{
+  background-color: #f1f1f1;
+}
+
+/* End of home page css */
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+footer{
+  background: linear-gradient(106.5deg, rgb(244, 125, 244) 0%, rgb(248, 55, 255) 23%, rgb(247, 0, 255) 93%);
+  margin-bottom: -40px;
+  width: 100%;
+}
+/* black box for copyright text, bottom box */
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #eb0f0f;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 640px){
+    .footerNav ul{
+        flex-direction: row;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+
+.tab:hover{
+  transform: translate(-10px);
+}
+
+.imageForNavBar {
+  background-image: url("pexels-darinacico-103567.jpg");
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+/* Start of section one of home page*/
+
+.textForSection1{
+  margin: auto;
+  display: inline-flex;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-color: rgb(36, 241, 244);
+  border: 6px solid black;
+}
+
+.imageInSection1 img{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  top: 0;
+  right: 0;
+  border: 6px solid black; 
+}
+
+.gradientlayer{
+  width: 50%;
+  position: absolute;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  top: 0;
+  right: 0; 
+  background: linear-gradient(to right, rgba(255,255,255,0) 5%,rgba(255,255,255,1) 100%);
+  height: 100%;  
+}
+
+.textForSection1OfHomepage{
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  background-color: rgb(0, 136, 255);
+  filter: brightness(1.75);
+  border: 6px solid black;
+}
+
+.textForSection1OfHomepage p{
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 2;
+  text-shadow: 2px 2px rgb(255, 255, 255);
+  box-shadow: 10px 10px 5px rgba(240, 240, 240, 0.7);
+  background-color: rgb(255, 255, 255, 0.8);
+  border: 6px solid black; 
+}
+
+/* End of section one of home page*/
+
+/* Start of section two of home page */ 
+
+.secondSection{
+  margin: auto;
+  background-color: rgb(247, 213, 213);
+  background-image: url("pexels-ninauhlikova-725255.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1000px;
+  border: 6px solid black;
+  filter: brightness(1.75);
+}
+
+.column{
+  display: flex;
+  height: 33.33%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  border: 3px solid black;
+}
+
+.column h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.textForSection2 {
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  color: white;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  filter: brightness(50%);
+}
+
+.textForSection2 p{
+  justify-content: center;
+  text-align: center;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+    background-color: rgb(0, 0, 0, 0.8);
+    border: 3px solid white;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 800;
+}
+
+.textForSection2 h3{
+  justify-content: center;
+  text-align: center;
+  text-shadow: 2px 2px white;
+  color: black;
+  filter: brightness(1.75);
+    box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+    background-color: white;
+    font-weight: 900;
+    border: 3px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.textForSection2 a{
+  color: rgb(0, 136, 255);
+  cursor: pointer;
+  text-decoration: none;
+  filter: brightness(1.75);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.textForSection2 a:hover{
+  text-decoration: none;
+  color: rgb(255, 1, 255);
+}
+
+.text2ForSection2{
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  color: white;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  filter: brightness(50%);
+}
+
+.text2ForSection2 p{
+  justify-content: center;
+  text-align: center;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+    background-color: rgb(0, 0, 0, 0.8);
+    border: 3px solid white;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 800;
+}
+
+.text2ForSection2 h3{
+  justify-content: center;
+  text-align: center;
+  text-shadow: 2px 2px white;
+  color: black;
+  filter: brightness(1.75);
+    box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+    background-color: white;
+    font-weight: 900;
+    border: 3px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.text2ForSection2 a{
+  color: rgb(0, 136, 255);
+  cursor: pointer;
+  text-decoration: none;
+  filter: brightness(1.75);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.text2ForSection2 a:hover{
+  text-decoration: none;
+  color: rgb(255, 1, 255);
+}
+
+.text3ForSection2 {
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  color: white;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  filter: brightness(50%);
+}
+
+.text3ForSection2 h3{
+  justify-content: center;
+  text-align: center;
+  text-shadow: 2px 2px white;
+  color: black;
+  filter: brightness(1.75);
+    box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+    background-color: white;
+    font-weight: 900;
+    border: 3px solid black;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text3ForSection2 p{
+  justify-content: center;
+  text-align: center;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+    background-color: rgb(0, 0, 0, 0.8);
+    font-weight: 800;
+    margin: auto;
+    border: 3px solid white;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 800;
+}
+
+.text3ForSection2 a{
+  color: rgb(0, 136, 255);
+  cursor: pointer;
+  text-decoration: none;
+  filter: brightness(1.75);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.text3ForSection2 a:hover{
+  text-decoration: none;
+  color: rgb(255, 1, 255);
+}
+
+
+/* end of section two of homepage */ 
+
+/* section three Services, About us, Get in Touch, and Give a review */
+
+#images-container{
+  display: flex;
+  width: 100%;
+  height: 430px;
+  margin: auto;
+  border: 3px solid black;
+  text-align: center;
+        text-shadow: 2px 2px rgb(255, 255, 255);
+    box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+    font-weight: 800;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 50%;
+  height: auto;
+  
+  justify-items: center;
+  background-color: rgb(0, 255, 247);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.textForHome{
+  width: 50%;
+  height: auto;
+  
+  justify-items: center;
+  background-color: rgb(0, 255, 247);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.textBottomOfHomeSection1{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.mySlides .textBottomOfHomeSection1 p{
+  margin-top: 15px;
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+  border: 6px solid black;
+    padding: 10px;
+    width: 50%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    line-height: 2;
+    color: #f1f1f1;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.mySlides .textBottomOfHomeSection1 p:hover{
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+  transform: scale(1.02);
+}
+
+.text2BottomOfHomeSection1{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.mySlides2 .text2BottomOfHomeSection1 p{
+  margin-top: 15px;
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+  border: 6px solid black;
+    padding: 10px;
+    width: 50%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    line-height: 2;
+    color: #f1f1f1;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.mySlides2 .text2BottomOfHomeSection1 p:hover{
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+  transform: scale(1.02);
+}
+
+.text3BottomOfHomeSection1{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.mySlides3 .text3BottomOfHomeSection1 p{
+  margin-top: 15px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 6px solid black;
+    padding: 10px;
+    width: 50%;
+    height: 150px;
+    font-weight: 800;
+    color: #f1f1f1;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+    background-color: rgb(0, 0, 0, 0.5);
+    line-height: 2;
+}
+
+.mySlides3 .text3BottomOfHomeSection1 p:hover{
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+  transform: scale(1.02);
+}
+
+.text4BottomOfHomeSection1{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.mySlides4 .text4BottomOfHomeSection1 p{
+  margin-top: 15px;
+  overflow: hidden;
+  width: 50%;
+  height: 150px;
+  justify-content: center;
+  text-align: center;
+  border: 6px solid black;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    line-height: 2;
+    color: #f1f1f1;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.mySlides4 .text4BottomOfHomeSection1 p:hover{
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+  transform: scale(1.02);
+}
+
+/* Hide the images by default */
+.mySlides{
+  display: table;
+  float: left;
+  width: 50%;
+  height: 200px;
+  padding: 20px;  
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.mySlides img{
+  height: 125px;
+  width: 50%;
+  
+  border: 6px solid black;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+  font-weight: 400;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.mySlides img:hover{
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+  }
+
+/* Hide the images by default */
+.mySlides2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: 50%;
+  height: 200px;
+  padding: 20px; 
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.mySlides2 img{
+  height: 125px;
+  width: 50%;
+  
+  border: 6px solid black;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+  font-weight: 400;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.mySlides2 img:hover{
+transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+  transform: scale(1.02);
+}
+
+/* Hide the images by default */
+.mySlides3 {
+  display: table;
+  float: left;
+  width: 50%;
+  height: 200px;
+  padding: 20px;  
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.mySlides3 img{
+  height: 125px;
+  width: 50%;
+  border: 6px solid black;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+  font-weight: 400;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.mySlides3 img:hover{
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+  }
+
+/* Hide the images by default */
+.mySlides4 {
+  display: table;
+  float: left;
+  width: 50%;
+  height: 200px;
+  padding: 20px;  
+  flex-wrap: wrap;
+  margin: auto;
+  object-fit: fill;
+}
+
+.mySlides4 img{
+  height: 125px;
+  width: 50%;
+  border: 6px solid black;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+  font-weight: 400;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.mySlides4 img:hover{
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+  }
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: relative;
+  
+  margin-bottom: 12px;
+  width: 100%;
+  text-align: center;
+}
+
+.text button{
+  color: rgb(0, 136, 255);
+  filter: brightness(1.75);
+  border-radius: 20px;
+  padding: 20px 20px;
+  background-color: white; /* Background color */
+  border: 6px solid black;
+  cursor: pointer;
+  text-shadow: 2px 2px rgb(255, 255, 255);
+  box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+  font-weight: 800;
+  
+  justify-content: center;
+  align-items: center;
+    vertical-align: middle;
+    display: inline;
+}
+
+.text button:hover{
+  cursor: pointer;
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+  transform: scale(1.02);
+  color: rgb(255, 1, 255);
+}
+
+.text2 {
+  color: #000000;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: relative;
+  margin-bottom: 12px;
+  width: 100%;
+  text-align: center;
+}
+.text2 button{
+  color: rgb(0, 136, 255);
+  filter: brightness(1.75);
+  border-radius: 20px;
+  border: 6px solid black;
+  padding: 20px 20px;
+  background-color: white; /* Background color */
+  cursor: pointer;
+  text-shadow: 2px 2px rgb(255, 255, 255);
+  box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+  font-weight: 800;
+  justify-content: center;
+  align-items: center;
+    vertical-align: middle;
+}
+
+.text2 button:hover{
+  cursor: pointer;
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+  transform: scale(1.02);
+  color: rgb(255, 1, 255);
+}
+
+.text3 {
+  color: #000000;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: relative;
+  margin-bottom:  12px;
+  width: 100%;
+  text-align: center;
+}
+.text3 button{
+  color: rgb(0, 136, 255);
+  filter: brightness(1.75);
+  border-radius: 20px;
+  border: 6px solid black;
+  padding: 20px 20px;
+  background-color: white; /* Background color */
+  cursor: pointer;
+  text-shadow: 2px 2px rgb(255, 255, 255);
+  box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+  font-weight: 800;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.text3 button:hover{
+  cursor: pointer;
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+  transform: scale(1.02);
+  color: rgb(255, 1, 255);
+}
+
+.text4 {
+  color: #000000;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: relative;
+  margin-bottom: 12px;
+  width: 100%;
+  text-align: center;
+}
+
+.text4 button{
+  color: rgb(0, 136, 255);
+  filter: brightness(1.75);
+  border-radius: 20px;
+  border: 6px solid black;
+  padding: 20px 20px;
+  background-color: white; /* Background color */
+  cursor: pointer;
+  text-shadow: 2px 2px rgb(255, 255, 255);
+  box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+  font-weight: 800;
+  justify-content: center;
+  align-items: center;
+    vertical-align: middle;
+}
+
+.text4 button:hover{
+  cursor: pointer;
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+  transform: scale(1.02);
+  color: rgb(255, 1, 255);
+}
+
+#toGetToTheTop {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 9999; /* Make sure it does not overlap */
+  background-color: rgb(0, 34, 255); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 20px; /* Increase font size */
+}
+#toGetToTheTop:hover {
+  background-color: #0099ff; /* Add a dark-grey background on hover */
+}
+
+
