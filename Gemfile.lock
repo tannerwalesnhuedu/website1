@@ -1,6 +1,7 @@
 # Gemfile.lock
 RUBY VERSION
   ruby 3.3.6
+bundle install
+
 
 bundle update --ruby
-bundle install
