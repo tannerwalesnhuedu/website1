@@ -1,0 +1,5 @@
+# Gemfile.lock
+RUBY VERSION
+  ruby 3.3.0
+
+bundle update --ruby
